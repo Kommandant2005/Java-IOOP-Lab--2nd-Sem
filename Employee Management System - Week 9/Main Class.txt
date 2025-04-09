@@ -1,0 +1,21 @@
+package edu.manipal.mahe.main;
+
+import edu.manipal.mahe.employee.Employee;
+import edu.manipal.mahe.department.Department;
+import edu.manipal.mahe.payroll.Payroll;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an Employee object
+        Employee emp = new Employee(1, "Arun", 30, 50000.0);
+
+        // Create a Department object
+        Department dept = new Department("IT Department", "Manager Name", "Location");
+
+        // Create a Payroll object
+        Payroll payroll = new Payroll(emp, dept);
+
+        // Generate pay slip
+        payroll.generatePaySlip();
+    }
+}

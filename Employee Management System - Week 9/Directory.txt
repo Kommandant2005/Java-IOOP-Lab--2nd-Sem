@@ -1,0 +1,12 @@
+src/
+├── edu/
+│   └── manipal/
+│       └── mahe/
+│           ├── employee/
+│           │   └── Employee.java
+│           ├── department/
+│           │   └── Department.java
+│           ├── payroll/
+│           │   └── Payroll.java
+│           └── main/
+│               └── Main.java

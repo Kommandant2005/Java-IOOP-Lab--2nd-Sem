@@ -1,0 +1,12 @@
+src/
+├── edu/
+│   └── manipal/
+│       └── mit/
+│           ├── student/
+│           │   └── Student.java
+│           ├── course/
+│           │   └── Course.java
+│           ├── registration/
+│           │   └── Registration.java
+│           └── main/
+│               └── Main.java
